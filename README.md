@@ -1,32 +1,85 @@
-# Machine-Learning
-Here is my Machine Learning project in spring 2025
+# Machine Learning Project – End-to-End AI/ML for Android
 
-Goal in this project is to build and end-to-end AI/ML deployment on mobile device, in this assignment I use CSC puhti supercomputer to run my code and train my model. After I am done with this project, I have knowledge of how to use Neural Networks in machine learning and also how to apply those in android applications.
+**Project period:** Spring 2025  
+**Project deadline:** 16 May 2025
 
-**Steps for this project**
-1.	Define & Pla
-2.	Collect & Prepare Data
-3.	Train & Evaluate on CSC Puhti Supercomputer
-4.	Optimize for Mobile Device
-5.	Build the Android App
-6.	Test & Demo
+## Project Overview
 
-*Project deadline is 16 of May 2025*
+This project focuses on the development of an end-to-end machine learning pipeline for image classification and deployment on an Android mobile device.
 
-**Branches I have in my GitHub are:**
+The objective was to design and implement a complete machine learning workflow, covering data preparation, neural network training, model evaluation, mobile optimization, and integration into an Android application.
 
-**- Satu-source-Data**
+The project utilizes **CSC's Puhti supercomputer** for computationally intensive model training and experimentation. The trained models are subsequently prepared for deployment in a mobile environment.
 
-This branch have all image data I use in my assignment project, there is three different     folder that have all images. There is also CSV file for later use that contains nutrition information from different foods.
+The project provides practical experience in **deep learning, neural network development, high-performance computing (HPC), model optimization, and Android application development**.
 
-**- Satu-source-Android_app_codes**
+## Development Workflow
 
-This branch have all the code I use to do my Android application; files are named after file where code belong in Android Studio so then its easy to build new app later and make files that needs to do.
+The project was structured into six main phases:
 
-**- Codes**
+1. **Project Definition and Planning** – Define project objectives, technical requirements, and implementation strategy.
+2. **Data Collection and Preprocessing** – Collect, organize, and preprocess image datasets for machine learning.
+3. **Model Training and Evaluation** – Develop, train, and evaluate neural network models using CSC's Puhti supercomputer.
+4. **Mobile Model Optimization** – Optimize trained models for deployment on resource-constrained mobile devices.
+5. **Android Application Development** – Implement an Android application capable of integrating and utilizing the trained machine learning model.
+6. **Testing and Demonstration** – Test the implementation, evaluate its functionality, and demonstrate the completed workflow.
 
-This branch have all the codes I use, there is image preprocessing codes and also different versions what I try. You can also find testing code and mobile optimization code here. Code names are same that I have used in documentary so it’s easier to find which code is used which part of project when you read documentary.
+## Repository Structure
 
-**- Satu-source-documentary**
+The repository is organized into four branches, each representing a specific component of the project. The `main` branch serves as the central overview and navigation point.
 
-This branch have all documentary from step 1 to step 6, documentary tells what I have done and why I have done certain things in that step and also there is code name that I have used in that step.
+### 1. Satu-source-Data
+
+**Dataset and supporting data files**
+
+Contains the image datasets used throughout the project, organized into three separate directories.
+
+The branch also includes a CSV dataset containing nutritional information about different food items, intended to support potential further analysis and development.
+
+### 2. Satu-source-Android_app_codes
+
+**Android application implementation**
+
+Contains the source code developed for the Android application.
+
+The files are named and organized to correspond to their respective components in Android Studio, making it easier to reconstruct the application structure and continue development.
+
+### 3. Codes
+
+**Machine learning development and experimentation**
+
+Contains the Python code developed during the machine learning workflow, including:
+
+- Image preprocessing and data preparation
+- Model development and training experiments
+- Evaluation and testing implementations
+- Model optimization for mobile deployment
+
+The branch also contains alternative implementations and experimental versions developed throughout the project.
+
+File names correspond to references in the project documentation, enabling individual experiments and implementation decisions to be traced.
+
+### 4. Satu-source-documentary
+
+**Technical documentation and development process**
+
+Contains the technical documentation covering all six phases of the project.
+
+The documentation describes the implementation process, technical decisions, experimental approaches, and reasoning behind the selected methods.
+
+References to corresponding source code files are included to connect the documented development stages with their practical implementations.
+
+## Project Scope and Learning Outcomes
+
+This project demonstrates the practical application of machine learning techniques across the full development lifecycle, from initial data preparation to mobile application integration.
+
+Key areas of technical development include:
+
+- Deep learning and neural network implementation
+- Image classification and preprocessing
+- High-performance computing using CSC Puhti
+- Experimental model evaluation and optimization
+- Integration of machine learning models into Android applications
+- Technical documentation and reproducible development workflows
+
+The project combines machine learning research and experimentation with practical software engineering, highlighting the challenges of transitioning from computationally intensive model development to resource-constrained mobile environments.
